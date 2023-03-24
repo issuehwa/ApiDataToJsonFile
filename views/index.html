@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Data To Json</title>
+  <script type="text/javascript" src="/js/jquery-3.6.4.min.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <h1>CATS 캣츠 영어앱 JSON 패키징</h1>
+
+  <section class="packaging_wrap">
+    <div class="chapter_box">
+      <label class="service_select_wrap">
+        <span>Service</span> :
+        <select class="service_select">
+          <option value="WordUp">WordUp</option>
+          <option value="WordUpTest">WordUpTest</option>
+          <option value="ReadingUp1">ReadingUp1</option>
+          <option value="ReadingUp2">ReadingUp2</option>
+          <option value="SentenceUp">SentenceUp</option>
+          <option value="SpeakUp">SpeakUp</option>
+          <option value="TalkUp">TalkUp</option>
+        </select>
+      </label>
+      <p>회차코드</p>
+      <textarea class="req_list"></textarea>
+      <button class="btn_packaging">패키징 시작</button>
+    </div>
+
+    <div class="chapter_box">
+      <p>성공/실패 유무</p>
+      <textarea class="result_list" readonly="true"></textarea>
+    </div>
+  </section>
+</body>
+</html>
